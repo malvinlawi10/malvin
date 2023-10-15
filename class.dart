@@ -29,16 +29,16 @@ extension SayGoodByeOnPerson on Person{
 void main(){
 
   var person1= Person();
-  person1.name = "Ahmad Rohid Rahman";
+  person1.name = "Malvin wijaya lawi";
   person1.address = "Banjarmasin";
 
   print(person1.name);
   print(person1.address);
   print(person1.country);
 
-  person1.sayHello("Rohid");
+  person1.sayHello("Malvin");
   person1.Hello();
-  person1.sayGoodBye("Ahmad");
+  person1.sayGoodBye("lawi");
 
   Person person2 = Person();
   print(person2);
